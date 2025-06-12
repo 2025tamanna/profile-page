@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(213, 173, 199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    align-items: center;
+    min-height: 50;
+    padding: 20;
+    box-sizing: border-box;
+}
+.role{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1000px;
+}
+.r1{
+  background-color: rgb(186, 217, 232);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 25px 20px;
+  width: 280px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+.role-image{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  background-color: blueviolet;
+  display: block;
+  padding: 5px;
+}
